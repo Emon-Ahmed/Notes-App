@@ -1,7 +1,13 @@
 import React from "react";
+import Navbar from "../../components/Navbar";
 
 const SignUp = () => {
-  return <div>SignUp</div>;
+  return (
+    <>
+      <Navbar />
+      <div>Sign Up</div>
+    </>
+  );
 };
 
 export default SignUp;
